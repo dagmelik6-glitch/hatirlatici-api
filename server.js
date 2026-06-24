@@ -11,7 +11,7 @@ app.use(express.json());
 const SECRET = 'gizli_anahtar_123456789';
 
 const pool = new Pool({
-  connectionString: 'postgresql://postgres:[Melik4130..]@db.yneqhfhfgzultnyajskb.supabase.co:5432/postgres',
+  connectionString: 'postgresql://postgres.yneqhfhfgzultnyajskb:[YOUR-PASSWORD]@aws-1-ap-northeast-2.pooler.supabase.com:6543/postgres',
   ssl: { rejectUnauthorized: false }
 });
 
